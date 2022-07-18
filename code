@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b,c[1000],s,e;
+	cin>>a;
+	
+	for(int i=0;i<a;i++){
+	    cin>>b;
+	   if(b>=2){
+	    for(int i=0;i<b;i++){
+	        cin>>c[i];
+	    }
+	    
+	   s=c[0];
+	  for(int i=1;i<b;i++){
+	      if(c[i]!=s)
+	       e+=1;
+	  }
+	   cout<<e<<endl;
+	   e=0;
+	
+	   }    
+	   }
+	return 0;
+}
